@@ -1,6 +1,6 @@
 CREATE TABLE news (
     id            SERIAL        PRIMARY KEY,
-    news_url      VARCHAR(200)  UNIQUE     ,
+    news_url      TEXT          UNIQUE     ,
     media         VARCHAR(20)              ,
     category      VARCHAR(30)[]            ,
     tags          VARCHAR(30)[]            ,
