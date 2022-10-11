@@ -7,6 +7,6 @@ CREATE TABLE news (
     title         VARCHAR(200)             ,
     description   TEXT                     ,
     content       TEXT                     ,
-    first_img_url VARCHAR(200)             ,
+    first_img_url TEXT                     ,
     pub_time      TIMESTAMPTZ
 );
